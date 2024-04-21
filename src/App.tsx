@@ -16,7 +16,7 @@ function App() {
   const [title, setTitle] = useState<string>("YOUR EVENT NAME HERE");
   const [subtitle, setSubtitle] = useState<string>("DAY 1 -- STATIC CAMERA");
 
-  const [fimLogo] = useImage('/fim-logo-blackonwhite.png');
+  const [fimLogo] = useImage(import.meta.env.BASE_URL+'fim-logo-blackonwhite.png');
   const stageRef = useRef<any>(null);
 
   useEffect(() => {
