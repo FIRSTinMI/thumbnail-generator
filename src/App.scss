@@ -1,0 +1,18 @@
+.canvas {
+  width: 100%;
+  height: 100%;
+  .konvajs-content {
+    width: unset !important;
+    height: unset !important;
+  }
+
+  canvas {
+    position: unset !important;
+    width: 95% !important;
+    margin-bottom: 1em !important;
+    height: unset !important;
+    margin-left: 2.5% !important;
+    border: 10px solid var(--mantine-color-placeholder) !important;
+    border-radius: 5px;
+  }
+}
